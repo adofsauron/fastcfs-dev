@@ -145,6 +145,48 @@
     <Filter Include="faststore\src\server\storage">
       <UniqueIdentifier>{b2161aa8-b782-4c6e-8590-87127a3795e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libdiskallocator">
+      <UniqueIdentifier>{8dfe972f-a4b8-4ab3-82f6-ec4d8f1eb881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libdiskallocator\src">
+      <UniqueIdentifier>{d7223cd9-23da-4212-a60b-a5a2f436751a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libdiskallocator\src\binlog">
+      <UniqueIdentifier>{fc8f7dbd-e88f-4c8a-998e-0ec207beb133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libdiskallocator\src\dio">
+      <UniqueIdentifier>{0efd1657-ed78-48e1-935a-acf731bf6889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libdiskallocator\src\trunk">
+      <UniqueIdentifier>{018baf4b-a309-4b1c-bc89-b49e15900adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libdiskallocator\src\binlog\common">
+      <UniqueIdentifier>{cac38778-aa59-4aa7-b4f7-320fe8811a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libdiskallocator\src\binlog\trunk">
+      <UniqueIdentifier>{204cf9ca-1bcf-4916-8d6e-428fff065a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth\client">
+      <UniqueIdentifier>{44d3208e-7b9c-4ae9-80f6-6b56a0516d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth\common">
+      <UniqueIdentifier>{89ec96bb-8363-49b9-a32c-43b4dbf8bbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth\conf">
+      <UniqueIdentifier>{c6640b9b-37ec-44fd-8f56-c510bcd67158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth\server">
+      <UniqueIdentifier>{f0c6cc8f-3199-4232-97e6-db01f7a6600d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth\server\db">
+      <UniqueIdentifier>{57802290-a1ee-4d3a-9861-d6f5657db5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth\server\db\dao">
+      <UniqueIdentifier>{b729f792-ee0e-4dab-b14e-4d861a74bac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth\client\tools">
+      <UniqueIdentifier>{684278c5-bc9e-4cf2-b4b9-eaa635a6948a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\trunk\FastCFS\src\api\async_reporter.c">
@@ -903,6 +945,174 @@
     <ClCompile Include="..\..\trunk\faststore\src\server\shared_thread_pool.c">
       <Filter>faststore\src\server</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\common\binlog_fd_cache.c">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\common\binlog_reader.c">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\common\binlog_writer.c">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\common\write_fd_cache.c">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\trunk\space_log_reader.c">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\trunk\trunk_binlog.c">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\trunk\trunk_index.c">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\binlog\trunk\trunk_space_log.c">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\dio\read_buffer_pool.c">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\dio\trunk_fd_cache.c">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\dio\trunk_read_thread.c">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\dio\trunk_write_thread.c">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\trunk\trunk_allocator.c">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\trunk\trunk_freelist.c">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\trunk\trunk_hashtable.c">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\trunk\trunk_id_info.c">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\trunk\trunk_maker.c">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\trunk\trunk_prealloc.c">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\trunk\trunk_reclaim.c">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\global.c">
+      <Filter>libdiskallocator\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\storage_allocator.c">
+      <Filter>libdiskallocator\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\storage_config.c">
+      <Filter>libdiskallocator\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libdiskallocator\src\store_path_index.c">
+      <Filter>libdiskallocator\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\db\dao\dao.c">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\db\dao\func.c">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\db\dao\granted_pool.c">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\db\dao\storage_pool.c">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\db\dao\user.c">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\db\auth_db.c">
+      <Filter>FastCFS\src\auth\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\db\pool_usage_updater.c">
+      <Filter>FastCFS\src\auth\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\cluster_handler.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\cluster_info.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\cluster_relationship.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\common_handler.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\fcfs_authd.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\server_func.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\server_global.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\service_handler.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\server\session_subscribe.c">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\tools\fauth_cluster_stat.c">
+      <Filter>FastCFS\src\auth\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\tools\fauth_list_servers.c">
+      <Filter>FastCFS\src\auth\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\tools\fcfs_pool.c">
+      <Filter>FastCFS\src\auth\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\tools\fcfs_user.c">
+      <Filter>FastCFS\src\auth\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\tools\tool_func.c">
+      <Filter>FastCFS\src\auth\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\client_func.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\client_global.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\client_proto.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\fcfs_auth_client.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\fcfs_auth_for_server.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\session_regenerate.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\session_sync.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\client\simple_connection_manager.c">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\common\auth_func.c">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\common\auth_global.c">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\common\auth_proto.c">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\auth\common\server_session.c">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\trunk\FastCFS\src\api\async_reporter.h">
@@ -1646,6 +1856,177 @@
     <ClInclude Include="..\..\trunk\faststore\src\server\shared_thread_pool.h">
       <Filter>faststore\src\server</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\common\binlog_fd_cache.h">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\common\binlog_reader.h">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\common\binlog_types.h">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\common\binlog_writer.h">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\common\write_fd_cache.h">
+      <Filter>libdiskallocator\src\binlog\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\trunk\space_log_reader.h">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\trunk\trunk_binlog.h">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\trunk\trunk_index.h">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\binlog\trunk\trunk_space_log.h">
+      <Filter>libdiskallocator\src\binlog\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\dio\read_buffer_pool.h">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\dio\trunk_fd_cache.h">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\dio\trunk_read_thread.h">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\dio\trunk_write_thread.h">
+      <Filter>libdiskallocator\src\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\trunk\trunk_allocator.h">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\trunk\trunk_freelist.h">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\trunk\trunk_hashtable.h">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\trunk\trunk_id_info.h">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\trunk\trunk_maker.h">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\trunk\trunk_prealloc.h">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\trunk\trunk_reclaim.h">
+      <Filter>libdiskallocator\src\trunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\global.h">
+      <Filter>libdiskallocator\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\storage_allocator.h">
+      <Filter>libdiskallocator\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\storage_config.h">
+      <Filter>libdiskallocator\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\storage_types.h">
+      <Filter>libdiskallocator\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libdiskallocator\src\store_path_index.h">
+      <Filter>libdiskallocator\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\dao\dao.h">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\dao\func.h">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\dao\granted_pool.h">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\dao\storage_pool.h">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\dao\types.h">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\dao\user.h">
+      <Filter>FastCFS\src\auth\server\db\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\auth_db.h">
+      <Filter>FastCFS\src\auth\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\db\pool_usage_updater.h">
+      <Filter>FastCFS\src\auth\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\cluster_handler.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\cluster_info.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\cluster_relationship.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\common_handler.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\server_func.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\server_global.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\server_types.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\service_handler.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\server\session_subscribe.h">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\tools\tool_func.h">
+      <Filter>FastCFS\src\auth\client\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\client_func.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\client_global.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\client_proto.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\client_types.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\fcfs_auth_client.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\fcfs_auth_for_server.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\session_regenerate.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\session_sync.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\client\simple_connection_manager.h">
+      <Filter>FastCFS\src\auth\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\common\auth_func.h">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\common\auth_global.h">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\common\auth_proto.h">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\common\auth_types.h">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\auth\common\server_session.h">
+      <Filter>FastCFS\src\auth\common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\trunk\FastCFS\src\api\Makefile.in">
@@ -1704,6 +2085,18 @@
     </None>
     <None Include="..\..\trunk\faststore\src\server\Makefile.in">
       <Filter>faststore\src\server</Filter>
+    </None>
+    <None Include="..\..\trunk\libdiskallocator\src\Makefile.in">
+      <Filter>libdiskallocator\src</Filter>
+    </None>
+    <None Include="..\..\trunk\FastCFS\src\auth\server\Makefile.in">
+      <Filter>FastCFS\src\auth\server</Filter>
+    </None>
+    <None Include="..\..\trunk\FastCFS\src\auth\client\tools\Makefile.in">
+      <Filter>FastCFS\src\auth\client\tools</Filter>
+    </None>
+    <None Include="..\..\trunk\FastCFS\src\auth\client\Makefile.in">
+      <Filter>FastCFS\src\auth\client</Filter>
     </None>
   </ItemGroup>
 </Project>
