@@ -1,3 +1,1709 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FastCFS">
+      <UniqueIdentifier>{6a1e787b-cfc1-43f8-83d8-ba5c953691a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src">
+      <UniqueIdentifier>{ea6f83cc-6ab3-4bdf-b01c-26aa6c080bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\api">
+      <UniqueIdentifier>{1707a3e7-bc96-485d-b153-104c071f169b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\auth">
+      <UniqueIdentifier>{09766302-e23a-4b64-a78f-40ad95b17264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\common">
+      <UniqueIdentifier>{b156864b-1a59-4562-a960-91bb60031636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\fuse">
+      <UniqueIdentifier>{621105ef-1f11-4acb-97dc-5801184c1988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\include">
+      <UniqueIdentifier>{589b1cd6-96d9-4cc3-b48e-c0629b3f7ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\preload">
+      <UniqueIdentifier>{851e685f-c0d9-4ef0-b700-6600575ae143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\tools">
+      <UniqueIdentifier>{fae21d1a-7108-4562-b343-abe2c15cc172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\api\std">
+      <UniqueIdentifier>{3ada0eff-a0d4-49ed-9d54-52e309a9ee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastCFS\src\api\tests">
+      <UniqueIdentifier>{31cd5627-5bfd-4b3f-aa29-33973e3c9c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfuse">
+      <UniqueIdentifier>{558930a0-ac84-4b24-bbbb-213325a58569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfuse\include">
+      <UniqueIdentifier>{d9ad6d28-231e-4703-a3d4-dbebc900b6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfuse\lib">
+      <UniqueIdentifier>{767d1ded-ae8b-499f-bbca-1c44b0ea524c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfuse\util">
+      <UniqueIdentifier>{94fe6a7d-c524-4fef-aeba-484db8f3a4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfuse\lib\modules">
+      <UniqueIdentifier>{84b2d68f-c4f1-4fd8-8502-ce7fdf65f96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfastcommon">
+      <UniqueIdentifier>{55c9058e-1d79-4c72-a5cf-17efbd838399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfastcommon\src">
+      <UniqueIdentifier>{60635b3f-4258-4433-b0f2-09abade838ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libserverframe">
+      <UniqueIdentifier>{21012487-581d-4897-b155-3f18e8114cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libserverframe\src">
+      <UniqueIdentifier>{555a5df7-0177-4b99-b042-bc9cdc132cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libserverframe\src\idempotency">
+      <UniqueIdentifier>{af57addf-a8b1-4c89-9243-c2072c02d760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libserverframe\src\idempotency\server">
+      <UniqueIdentifier>{7d454fb0-527a-4293-a392-a8012e726435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libserverframe\src\idempotency\client">
+      <UniqueIdentifier>{290e057a-b3f7-4ea7-85cd-b749d602eeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR">
+      <UniqueIdentifier>{8dce815e-5e39-4f61-b32f-2372691c6a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src">
+      <UniqueIdentifier>{ac70b3c1-cd29-4745-95e2-a2276714b613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src\client">
+      <UniqueIdentifier>{150940e0-c7a4-492c-bcb3-01d4f1af215e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src\common">
+      <UniqueIdentifier>{3e9cfa62-f5f3-4a75-80f0-6fca37cf3748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src\server">
+      <UniqueIdentifier>{e76e9469-5420-42a2-be1e-e4520cef55a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src\server\db">
+      <UniqueIdentifier>{ec5d714c-4b50-48cd-9b19-8a43b79ba90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src\server\binlog">
+      <UniqueIdentifier>{bbc0ec25-c03d-4af4-a43e-6143af3e5648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src\client\tools">
+      <UniqueIdentifier>{f498d596-c66d-44ff-815c-b863a5738a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastDIR\src\client\test">
+      <UniqueIdentifier>{ebdfff25-a081-4f78-b625-1e33e5883e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore">
+      <UniqueIdentifier>{b1854ee9-d85b-4e67-9c7d-443e2a3c3574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src">
+      <UniqueIdentifier>{ae65deaf-33e5-47a3-82c3-d757223ba41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\api">
+      <UniqueIdentifier>{7bcc625a-6696-42b3-a80e-7777a72db9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\client">
+      <UniqueIdentifier>{bc16d619-b79a-4438-92bd-0ea83d5b6c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\common">
+      <UniqueIdentifier>{480e6aa2-a268-408f-a728-55f350e236c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\server">
+      <UniqueIdentifier>{6960695d-34c0-435c-ac9f-647d1dad9ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\api\write_combine">
+      <UniqueIdentifier>{5d80ef56-af71-4c77-b12e-ffe372f1ac1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\api\read_ahead">
+      <UniqueIdentifier>{a3a9fd41-ec56-45b1-b67c-c1c188b1de45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\client\tools">
+      <UniqueIdentifier>{68f46101-35b3-4f56-b63a-3f994716e4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\client\tests">
+      <UniqueIdentifier>{61ffa311-476d-44cd-976f-6d433be636ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\server\binlog">
+      <UniqueIdentifier>{4c4f1ed9-8cb0-4f9f-9e7d-f305e7cc3f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\server\dio">
+      <UniqueIdentifier>{439a87e4-13a9-452c-80a7-b78cb694069f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\server\rebuild">
+      <UniqueIdentifier>{e4af4136-b453-4525-8122-27cab2251c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\server\recovery">
+      <UniqueIdentifier>{25a1aafb-2e9f-4b9a-a9e0-552457ef71c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\server\replication">
+      <UniqueIdentifier>{fde62508-7097-4511-8e7f-a3edbd488711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="faststore\src\server\storage">
+      <UniqueIdentifier>{b2161aa8-b782-4c6e-8590-87127a3795e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\async_reporter.c">
+      <Filter>FastCFS\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\fcfs_api.c">
+      <Filter>FastCFS\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\fcfs_api_allocator.c">
+      <Filter>FastCFS\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\fcfs_api_file.c">
+      <Filter>FastCFS\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\fcfs_api_util.c">
+      <Filter>FastCFS\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\inode_htable.c">
+      <Filter>FastCFS\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\tests\test_file_copy.c">
+      <Filter>FastCFS\src\api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\tests\test_file_op.c">
+      <Filter>FastCFS\src\api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\tests\test_papi_copy.c">
+      <Filter>FastCFS\src\api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\tests\test_read_ahead.c">
+      <Filter>FastCFS\src\api\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\std\capi.c">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\std\fd_manager.c">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\std\papi.c">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\api\std\posix_api.c">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\fuse\fcfs_fused.c">
+      <Filter>FastCFS\src\fuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\fuse\fuse_wrapper.c">
+      <Filter>FastCFS\src\fuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\fuse\global.c">
+      <Filter>FastCFS\src\fuse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\tools\fcfs_active_test.c">
+      <Filter>FastCFS\src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\preload\api.c">
+      <Filter>FastCFS\src\preload</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\preload\global.c">
+      <Filter>FastCFS\src\preload</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\FastCFS\src\common\fcfs_global.c">
+      <Filter>FastCFS\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\buffer.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\cuse_lowlevel.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\fuse.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\fuse_log.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\fuse_loop.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\fuse_loop_mt.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\fuse_lowlevel.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\fuse_opt.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\fuse_signals.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\helper.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\mount.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\mount_bsd.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\mount_util.c">
+      <Filter>libfuse\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\modules\iconv.c">
+      <Filter>libfuse\lib\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\lib\modules\subdir.c">
+      <Filter>libfuse\lib\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\util\fusermount.c">
+      <Filter>libfuse\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfuse\util\mount.fuse.c">
+      <Filter>libfuse\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\array_allocator.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\avl_tree.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\base64.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\buffered_file_writer.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\chain.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\char_convert_loader.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\char_converter.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\common_blocked_queue.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\connection_pool.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fast_allocator.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fast_blocked_queue.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fast_buffer.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fast_mblock.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fast_mpool.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fast_task_queue.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fast_timer.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fc_memory.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\fc_queue.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\flat_skiplist.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\hash.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\http_func.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\id_generator.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\ini_file_reader.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\io_opt.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\ioevent.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\ioevent_loop.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\json_parser.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\local_ip_func.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\locked_timer.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\logger.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\md5.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\multi_skiplist.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\multi_socket_client.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\process_ctrl.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\pthread_func.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\sched_thread.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\server_id_func.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\shared_buffer.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\shared_func.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\skiplist_set.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\sockopt.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\sorted_array.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\sorted_queue.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\system_info.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\thread_pool.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libfastcommon\src\uniq_skiplist.c">
+      <Filter>libfastcommon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_binlog_index.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_binlog_writer.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_cluster_cfg.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_configs.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_connection_manager.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_file_writer.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_func.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_global.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_iov.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_nio.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_ordered_writer.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_proto.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_serializer.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_service.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_sharding_htable.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\sf_util.c">
+      <Filter>libserverframe\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\idempotency\server\channel_htable.c">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\idempotency\server\request_htable.c">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\idempotency\server\server_channel.c">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\idempotency\server\server_handler.c">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\idempotency\client\client_channel.c">
+      <Filter>libserverframe\src\idempotency\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\libserverframe\src\idempotency\client\receipt_handler.c">
+      <Filter>libserverframe\src\idempotency\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_func.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_local_consumer.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_pack.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_producer.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_read_thread.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_reader.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_replay.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_replay_mt.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_replication.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\binlog_write.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\push_result_ring.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\binlog\replica_consumer_thread.c">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\db\change_notify.c">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\db\db_updater.c">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\db\dentry_loader.c">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\db\dentry_lru.c">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\db\dentry_serializer.c">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\db\event_dealer.c">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\cluster_handler.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\cluster_info.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\cluster_relationship.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\common_handler.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\data_dumper.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\data_loader.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\data_thread.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\dentry.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\fdir_serverd.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\flock.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\inode_generator.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\inode_index.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\ns_manager.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\ns_subscribe.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\server_binlog.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\server_func.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\server_global.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\server_storage.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\service_handler.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\server\shared_thread_pool.c">
+      <Filter>fastDIR\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\common\fdir_func.c">
+      <Filter>fastDIR\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\common\fdir_global.c">
+      <Filter>fastDIR\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\common\fdir_proto.c">
+      <Filter>fastDIR\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\test\test_flock.c">
+      <Filter>fastDIR\src\client\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\test\test_mkdir.c">
+      <Filter>fastDIR\src\client\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\test\test_rmdir.c">
+      <Filter>fastDIR\src\client\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_cluster_stat.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_getxattr.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_list.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_list_servers.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_mkdir.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_remove.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_rename.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_service_stat.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_setxattr.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\tools\fdir_stat.c">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\client_func.c">
+      <Filter>fastDIR\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\client_global.c">
+      <Filter>fastDIR\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\client_proto.c">
+      <Filter>fastDIR\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\fdir_client.c">
+      <Filter>fastDIR\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\pooled_connection_manager.c">
+      <Filter>fastDIR\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\fastDIR\src\client\simple_connection_manager.c">
+      <Filter>fastDIR\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\read_ahead\obid_htable.c">
+      <Filter>faststore\src\api\read_ahead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\read_ahead\otid_htable.c">
+      <Filter>faststore\src\api\read_ahead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\write_combine\combine_handler.c">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\write_combine\obid_htable.c">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\write_combine\oid_htable.c">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\write_combine\otid_htable.c">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\write_combine\test_otid_htable.c">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\write_combine\timeout_handler.c">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\fs_api.c">
+      <Filter>faststore\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\fs_api_allocator.c">
+      <Filter>faststore\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\api\fs_api_buffer_pool.c">
+      <Filter>faststore\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\tests\test_slice_rw.c">
+      <Filter>faststore\src\client\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\tools\fs_cluster_stat.c">
+      <Filter>faststore\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\tools\fs_delete.c">
+      <Filter>faststore\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\tools\fs_read.c">
+      <Filter>faststore\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\tools\fs_service_stat.c">
+      <Filter>faststore\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\tools\fs_write.c">
+      <Filter>faststore\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\tools\fstore_list_servers.c">
+      <Filter>faststore\src\client\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\client_func.c">
+      <Filter>faststore\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\client_global.c">
+      <Filter>faststore\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\client_proto.c">
+      <Filter>faststore\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\fs_client.c">
+      <Filter>faststore\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\client\simple_connection_manager.c">
+      <Filter>faststore\src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\common\fs_cluster_cfg.c">
+      <Filter>faststore\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\common\fs_func.c">
+      <Filter>faststore\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\common\fs_global.c">
+      <Filter>faststore\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\common\fs_proto.c">
+      <Filter>faststore\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\binlog_check.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\binlog_func.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\binlog_loader.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\binlog_read_thread.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\binlog_reader.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\binlog_repair.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\migrate_clean.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\replica_binlog.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\slice_binlog.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\slice_loader.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\binlog\trunk_binlog.c">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\dio\read_buffer_pool.c">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\dio\trunk_fd_cache.c">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\dio\trunk_read_thread.c">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\dio\trunk_write_thread.c">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\object_block_index.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\slice_op.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\storage_allocator.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\storage_config.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\store_path_index.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\trunk_allocator.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\trunk_freelist.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\trunk_id_info.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\trunk_maker.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\trunk_prealloc.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\storage\trunk_reclaim.c">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\replication\replication_callee.c">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\replication\replication_caller.c">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\replication\replication_common.c">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\replication\replication_processor.c">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\replication\rpc_result_ring.c">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\recovery\binlog_dedup.c">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\recovery\binlog_fetch.c">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\recovery\binlog_replay.c">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\recovery\data_recovery.c">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\recovery\recovery_thread.c">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\rebuild\binlog_reader.c">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\rebuild\binlog_spliter.c">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\rebuild\rebuild_binlog.c">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\rebuild\rebuild_thread.c">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\rebuild\store_path_rebuild.c">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\cluster_handler.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\cluster_relationship.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\cluster_topology.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\common_handler.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\data_thread.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\data_update_handler.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\fs_serverd.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\master_election.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\replica_handler.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\server_binlog.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\server_func.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\server_global.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\server_group_info.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\server_recovery.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\server_replication.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\server_storage.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\service_handler.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\trunk\faststore\src\server\shared_thread_pool.c">
+      <Filter>faststore\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\async_reporter.h">
+      <Filter>FastCFS\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\fcfs_api.h">
+      <Filter>FastCFS\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\fcfs_api_allocator.h">
+      <Filter>FastCFS\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\fcfs_api_file.h">
+      <Filter>FastCFS\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\fcfs_api_types.h">
+      <Filter>FastCFS\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\fcfs_api_util.h">
+      <Filter>FastCFS\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\inode_htable.h">
+      <Filter>FastCFS\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\std\api_types.h">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\std\capi.h">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\std\fd_manager.h">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\std\papi.h">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\api\std\posix_api.h">
+      <Filter>FastCFS\src\api\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\fuse\fuse_wrapper.h">
+      <Filter>FastCFS\src\fuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\fuse\global.h">
+      <Filter>FastCFS\src\fuse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\preload\api.h">
+      <Filter>FastCFS\src\preload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\preload\global.h">
+      <Filter>FastCFS\src\preload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\preload\types.h">
+      <Filter>FastCFS\src\preload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\FastCFS\src\common\fcfs_global.h">
+      <Filter>FastCFS\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\include\cuse_lowlevel.h">
+      <Filter>libfuse\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\include\fuse.h">
+      <Filter>libfuse\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\include\fuse_common.h">
+      <Filter>libfuse\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\include\fuse_kernel.h">
+      <Filter>libfuse\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\include\fuse_log.h">
+      <Filter>libfuse\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\include\fuse_lowlevel.h">
+      <Filter>libfuse\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\include\fuse_opt.h">
+      <Filter>libfuse\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\lib\fuse_i.h">
+      <Filter>libfuse\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\lib\fuse_misc.h">
+      <Filter>libfuse\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfuse\lib\mount_util.h">
+      <Filter>libfuse\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\array_allocator.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\avl_tree.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\base64.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\buffered_file_writer.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\chain.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\char_convert_loader.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\char_converter.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\common_blocked_queue.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\common_define.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\connection_pool.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fast_allocator.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fast_blocked_queue.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fast_buffer.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fast_mblock.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fast_mpool.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fast_task_queue.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fast_timer.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fc_atomic.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fc_list.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fc_memory.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\fc_queue.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\flat_skiplist.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\hash.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\http_func.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\id_generator.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\ini_file_reader.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\io_opt.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\ioevent.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\ioevent_loop.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\json_parser.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\local_ip_func.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\locked_list.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\locked_timer.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\logger.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\md5.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\multi_skiplist.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\multi_socket_client.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\php7_ext_wrapper.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\process_ctrl.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\pthread_func.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\sched_thread.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\server_id_func.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\shared_buffer.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\shared_func.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\skiplist.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\skiplist_common.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\skiplist_set.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\sockopt.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\sorted_array.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\sorted_queue.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\system_info.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\thread_pool.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libfastcommon\src\uniq_skiplist.h">
+      <Filter>libfastcommon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_binlog_index.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_binlog_writer.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_buffered_writer.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_cluster_cfg.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_configs.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_connection_manager.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_define.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_file_writer.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_func.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_global.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_iov.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_nio.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_ordered_writer.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_proto.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_serializer.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_service.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_sharding_htable.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_types.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\sf_util.h">
+      <Filter>libserverframe\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\server\channel_htable.h">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\server\request_htable.h">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\server\server_channel.h">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\server\server_handler.h">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\server\server_types.h">
+      <Filter>libserverframe\src\idempotency\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\client\client_channel.h">
+      <Filter>libserverframe\src\idempotency\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\client\client_types.h">
+      <Filter>libserverframe\src\idempotency\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\client\receipt_handler.h">
+      <Filter>libserverframe\src\idempotency\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\libserverframe\src\idempotency\client\rpc_wrapper.h">
+      <Filter>libserverframe\src\idempotency\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_func.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_local_consumer.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_pack.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_producer.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_read_thread.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_reader.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_replay.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_replay_mt.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_replication.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_types.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\binlog_write.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\push_result_ring.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\binlog\replica_consumer_thread.h">
+      <Filter>fastDIR\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\db\change_notify.h">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\db\db_interface.h">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\db\db_updater.h">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\db\dentry_loader.h">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\db\dentry_lru.h">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\db\dentry_serializer.h">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\db\event_dealer.h">
+      <Filter>fastDIR\src\server\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\cluster_handler.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\cluster_info.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\cluster_relationship.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\common_handler.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\data_dumper.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\data_loader.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\data_thread.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\dentry.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\flock.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\inode_generator.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\inode_index.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\ns_manager.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\ns_subscribe.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\server_binlog.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\server_func.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\server_global.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\server_storage.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\server_types.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\service_handler.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\server\shared_thread_pool.h">
+      <Filter>fastDIR\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\common\fdir_func.h">
+      <Filter>fastDIR\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\common\fdir_global.h">
+      <Filter>fastDIR\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\common\fdir_proto.h">
+      <Filter>fastDIR\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\common\fdir_server_types.h">
+      <Filter>fastDIR\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\common\fdir_types.h">
+      <Filter>fastDIR\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\client\client_func.h">
+      <Filter>fastDIR\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\client\client_global.h">
+      <Filter>fastDIR\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\client\client_proto.h">
+      <Filter>fastDIR\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\client\client_types.h">
+      <Filter>fastDIR\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\client\fdir_client.h">
+      <Filter>fastDIR\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\client\pooled_connection_manager.h">
+      <Filter>fastDIR\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\fastDIR\src\client\simple_connection_manager.h">
+      <Filter>fastDIR\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\read_ahead\obid_htable.h">
+      <Filter>faststore\src\api\read_ahead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\read_ahead\otid_htable.h">
+      <Filter>faststore\src\api\read_ahead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\write_combine\combine_handler.h">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\write_combine\obid_htable.h">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\write_combine\oid_htable.h">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\write_combine\otid_htable.h">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\write_combine\timeout_handler.h">
+      <Filter>faststore\src\api\write_combine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\fs_api.h">
+      <Filter>faststore\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\fs_api_allocator.h">
+      <Filter>faststore\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\fs_api_buffer_pool.h">
+      <Filter>faststore\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\api\fs_api_types.h">
+      <Filter>faststore\src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\client\client_func.h">
+      <Filter>faststore\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\client\client_global.h">
+      <Filter>faststore\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\client\client_proto.h">
+      <Filter>faststore\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\client\client_types.h">
+      <Filter>faststore\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\client\fs_client.h">
+      <Filter>faststore\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\client\simple_connection_manager.h">
+      <Filter>faststore\src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\common\fs_cluster_cfg.h">
+      <Filter>faststore\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\common\fs_func.h">
+      <Filter>faststore\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\common\fs_global.h">
+      <Filter>faststore\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\common\fs_proto.h">
+      <Filter>faststore\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\common\fs_types.h">
+      <Filter>faststore\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\binlog_check.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\binlog_func.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\binlog_loader.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\binlog_read_thread.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\binlog_reader.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\binlog_repair.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\binlog_types.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\migrate_clean.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\replica_binlog.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\slice_binlog.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\slice_loader.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\binlog\trunk_binlog.h">
+      <Filter>faststore\src\server\binlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\dio\read_buffer_pool.h">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\dio\trunk_fd_cache.h">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\dio\trunk_read_thread.h">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\dio\trunk_write_thread.h">
+      <Filter>faststore\src\server\dio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\object_block_index.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\slice_op.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\storage_allocator.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\storage_config.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\storage_types.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\store_path_index.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\trunk_allocator.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\trunk_freelist.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\trunk_id_info.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\trunk_maker.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\trunk_prealloc.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\storage\trunk_reclaim.h">
+      <Filter>faststore\src\server\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\replication\replication_callee.h">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\replication\replication_caller.h">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\replication\replication_common.h">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\replication\replication_processor.h">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\replication\replication_types.h">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\replication\rpc_result_ring.h">
+      <Filter>faststore\src\server\replication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\recovery\binlog_dedup.h">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\recovery\binlog_fetch.h">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\recovery\binlog_replay.h">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\recovery\data_recovery.h">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\recovery\recovery_thread.h">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\recovery\recovery_types.h">
+      <Filter>faststore\src\server\recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\rebuild\binlog_reader.h">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\rebuild\binlog_spliter.h">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\rebuild\rebuild_binlog.h">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\rebuild\rebuild_thread.h">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\rebuild\rebuild_types.h">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\rebuild\store_path_rebuild.h">
+      <Filter>faststore\src\server\rebuild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\cluster_handler.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\cluster_relationship.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\cluster_topology.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\common_handler.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\data_thread.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\data_update_handler.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\master_election.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\replica_handler.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_binlog.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_func.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_global.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_group_info.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_recovery.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_replication.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_storage.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\server_types.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\service_handler.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trunk\faststore\src\server\shared_thread_pool.h">
+      <Filter>faststore\src\server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\trunk\FastCFS\src\api\Makefile.in">
+      <Filter>FastCFS\src\api</Filter>
+    </None>
+    <None Include="..\..\trunk\FastCFS\src\api\tests\Makefile.in">
+      <Filter>FastCFS\src\api\tests</Filter>
+    </None>
+    <None Include="..\..\trunk\FastCFS\src\fuse\Makefile.in">
+      <Filter>FastCFS\src\fuse</Filter>
+    </None>
+    <None Include="..\..\trunk\FastCFS\src\tools\Makefile.in">
+      <Filter>FastCFS\src\tools</Filter>
+    </None>
+    <None Include="..\..\trunk\FastCFS\src\preload\Makefile.in">
+      <Filter>FastCFS\src\preload</Filter>
+    </None>
+    <None Include="..\..\trunk\libfuse\include\meson.build">
+      <Filter>libfuse\include</Filter>
+    </None>
+    <None Include="..\..\trunk\libfuse\lib\fuse_versionscript">
+      <Filter>libfuse\lib</Filter>
+    </None>
+    <None Include="..\..\trunk\libfuse\lib\meson.build">
+      <Filter>libfuse\lib</Filter>
+    </None>
+    <None Include="..\..\trunk\libfastcommon\src\fast_link_library.sh">
+      <Filter>libfastcommon\src</Filter>
+    </None>
+    <None Include="..\..\trunk\libfastcommon\src\Makefile.in">
+      <Filter>libfastcommon\src</Filter>
+    </None>
+    <None Include="..\..\trunk\fastDIR\src\server\Makefile.in">
+      <Filter>fastDIR\src\server</Filter>
+    </None>
+    <None Include="..\..\trunk\fastDIR\src\client\test\Makefile.in">
+      <Filter>fastDIR\src\client\test</Filter>
+    </None>
+    <None Include="..\..\trunk\fastDIR\src\client\tools\Makefile.in">
+      <Filter>fastDIR\src\client\tools</Filter>
+    </None>
+    <None Include="..\..\trunk\fastDIR\src\client\Makefile.in">
+      <Filter>fastDIR\src\client</Filter>
+    </None>
+    <None Include="..\..\trunk\faststore\src\api\Makefile.in">
+      <Filter>faststore\src\api</Filter>
+    </None>
+    <None Include="..\..\trunk\faststore\src\client\tests\Makefile.in">
+      <Filter>faststore\src\client\tests</Filter>
+    </None>
+    <None Include="..\..\trunk\faststore\src\client\tools\Makefile.in">
+      <Filter>faststore\src\client\tools</Filter>
+    </None>
+    <None Include="..\..\trunk\faststore\src\client\Makefile.in">
+      <Filter>faststore\src\client</Filter>
+    </None>
+    <None Include="..\..\trunk\faststore\src\server\Makefile.in">
+      <Filter>faststore\src\server</Filter>
+    </None>
+  </ItemGroup>
 </Project>
